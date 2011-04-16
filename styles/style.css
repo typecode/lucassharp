@@ -1,0 +1,100 @@
+/**** Housekeeping ***/
+
+html{
+	height: 100%;
+	overflow-y:scroll;
+}
+
+
+body{
+	font-family: Georgia, serif;
+	font-size: 12px;
+	color: #606060;
+	font-size:12px;
+}
+
+a{
+	text-decoration: none;
+	color:#606060;
+}
+	a:hover{
+		text-decoration: none;
+		color:#9b9b9b;
+	}
+.clear{
+	clear:both;	
+}
+
+.wrapper{
+	width: 600px;
+	margin: 0px auto;
+	padding:0px 0px 10px 0px;
+	overflow:visible;
+}
+
+	.header{
+		display:block;
+		margin:0px auto 10px auto;
+	}
+		.header h1{
+			font-size:3em;
+			padding:10px 0px 5px 10px;
+		}
+	
+	.nav{
+		display:block;
+		border:1px solid #cccccc;
+		width:200px;
+		float:left;
+		padding:15px 0px 10px 0px;
+		margin:0px 0px 15px 0px;
+	}
+		.nav ul{
+			padding:0px 0px 0px 10px;
+		}
+			.nav ul li{
+				list-style-type:none;
+				padding:2px 0px 3px 0px;
+			}
+				.header ul li ul{
+					
+				}
+					.header ul li ul li{
+						
+					}
+			
+	.content{
+		display:block;
+		width:690px;
+		min-height:50px;
+		float:right;
+		margin:0px 0px 15px 0px;
+		overflow-x:visible;
+		overflow-y:hidden;
+	}
+		.content.full{
+			width:100%;
+		}
+		.content .page{
+			margin:15px 20px 15px 10px;
+		}
+	
+	.footer{
+		height:20px;
+		clear:both;
+		color:#999999;
+	}
+		.footer ul{
+			text-align:center;
+		}
+			.footer ul li{
+				line-height:20px;
+				display:inline;
+				padding:0px 5px 0px 5px;
+			}
+	.footer a{
+		color:#606060;
+	}
+		.footer a:hover{
+			color:#9b9b9b;
+		}

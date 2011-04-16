@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/******************************************/
+/******************************************/
+/****  CSS Document                    ****/
+/****  Copyright 2010 WealthOne, Inc.  ****/
+/****  by Andrew Mahon                 ****/
+/******************************************/
+/******************************************/
+
+.slide_panel{
+	overflow:hidden;
+	margin:auto;
+}
+	.slide_panel .left{
+		width:530px;
+		float:left;
+	}
+	.slide_panel .left .inner{
+		text-align:center;
+	}
+	.slide_panel .right{
+		width:230px;
+		float:right;
+	}
+	.slide_panel .button{
+		display:block;
+		overflow:visible;
+	}
+	
+	.slide_panel .button span{
+		position:absolute;
+		bottom:30px;
+		left:-30px;
+		width:15px;
+		height:15px;
+		display:none;
+		border:1px solid gray;
+	}
+	.slide_panel .button:hover {
+		
+	}
+	.slide_panel .button:hover span{
+		display:block;
+	}
+	
+	.slide_panel .inner{
+
+	}
+		.slide_panel .inner p{
+			color:#999999;
+			line-height:15px;
+		}
+.spacer_panel{
+	display:block;
+	max-width:530px;
+	margin:0px auto 0px auto;
+	overflow:hidden;
+}
+
+.panel{
+	display:block;
+	max-width:530px;
+	margin:0px auto 0px auto;
+	overflow:hidden;
+}
+	.panel p{
+		margin:0px 0px 10px 0px;
+	}
+	.panel .left{
+		float:left;
+		width:auto;
+	}
+	
+	.panel .right{
+		float:right;
+		width:62%;
+	}

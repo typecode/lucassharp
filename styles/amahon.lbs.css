@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/******************************************/
+/******************************************/
+/****  CSS Document                    ****/
+/****  Copyright 2010 WealthOne, Inc.  ****/
+/****  by Andrew Mahon                 ****/
+/******************************************/
+/******************************************/
+
+
+
+.wrapper{
+	width: 800px;
+	padding:25px 0px 10px 120px;
+}
+
+#mainContent{
+	margin:auto;
+}
+
+h2.itemTitle{
+	font-weight:bold;
+	font-size:13px;
+	height:15px;
+}
+h2.itemTitle:hover{
+	cursor:pointer;
+}
+h2 span{
+	font-weight:normal;
+	font-size:12px;
+}
+
+.blockLink{
+	display:block;
+	margin:0px 8px 0px 0px;
+	padding:0px;
+	width:27px;
+	height:27px;
+	background-color:black;
+	float:left;
+}
+.blockLink:hover,
+.blockLink.active{
+	opacity:0.6;
+}
+
+#lbs_nav{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+}
+	#lbs_nav #top_nav{
+		height:87px;
+		width:150px;
+		display:block;
+		background:transparent url(../images/NAV_01.gif) 0 0 no-repeat;
+	}
+	
+		#lbs_nav #top_nav:hover{
+			background-position:-150px 0px;
+		}
+	#lbs_nav #type_nav{
+		height:32px;
+		width:150px;
+		display:block;
+		background:transparent url(../images/NAV_02.gif) 0 0 no-repeat;
+		
+	}
+		#lbs_nav #type_nav:hover{
+			background-position:-150px 0px;
+		}
+	#lbs_nav #posters_nav{
+		height:28px;
+		width:150px;
+		display:block;
+		background:transparent url(../images/NAV_03.gif) 0 0 no-repeat;
+	}
+		#lbs_nav #posters_nav:hover{
+			background-position:-150px 0px;
+		}
+	#lbs_nav #contact_nav{
+		height:43px;
+		width:150px;
+		display:block;
+		background:transparent url(../images/NAV_04.gif) 0 0 no-repeat;
+	}
+		#lbs_nav #contact_nav:hover{
+			background-position:-150px 0px;
+		}
